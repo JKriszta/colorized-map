@@ -5,8 +5,8 @@ import MapStyle from './mapStyle';
 function MyComponent() {
 
 const mapSize = {
-  width: '800px',
-  height: '700px'
+  width: '100vw',
+  height: '100vh'
 };
 
 const center = {
@@ -23,7 +23,8 @@ const center = {
 
   return (
     <LoadScript
-      googleMapsApiKey="AIzaSyBlU3EgITUJYVFMEQM6RxOixYQ-EtacWPY">
+      //googleMapsApiKey="AIzaSyBA5QIDjrpY_Fq6nTfr4P4tDIFyf-EeR7U">
+      googleMapsApiKey="AIzaSyD6jd0SZQg_SAINn65qVHjRX9bcTLTBvRQ">
       <GoogleMap
         options={options}
         mapContainerStyle={mapSize}
